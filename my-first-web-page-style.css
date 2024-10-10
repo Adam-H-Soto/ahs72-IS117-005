@@ -1,8 +1,9 @@
 *{
     background-color: linen;
-    color: navy
+    color: navy;
+    text-align: center;
 }
 
 p{
-    margin-left: 10em;
+    font-style: italic;
 }

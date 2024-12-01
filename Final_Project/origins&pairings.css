@@ -1,0 +1,30 @@
+/* DEVELOPER Adam Soto, IS117-005, Fall 2024 */
+
+/* Nav Menu */
+.bg-dark {
+    background-color: #e71e26 !important;
+}
+body{
+    background-color: #e9dcb9;
+}
+
+/* Main Text and List */
+
+.main-text{
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+    margin-top: 3%;
+}
+.list{
+    margin-left: 3%;
+    font-size: 130%;
+}
+
+/* Footer */
+.footer{
+    background-color: #e71e26;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}

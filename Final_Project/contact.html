@@ -1,0 +1,132 @@
+<!--DEVELOPER Adam Soto, IS117-005, Fall 2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Polish Cookbook - Contact</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="contact.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Favicon.jpg">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <img src="images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                <a class="navbar-brand" href="home.html">The Polish Cookbook</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Recipes
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="equipment.html">Equipment Needed</a>
+                                <a class="dropdown-item" x-placement="right-start" href="seasonal.html">Seasonal Recipes</a>
+                                <ul>
+                                    <li>
+                                        <a class="dropdown-item" href="spring.html">Spring</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="summer.html">Summer</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="autumn.html">Autumn</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="winter.html">Winter</a>
+                                    </li>
+                                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="origins.html">Recipe Origins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pairings.html">Dessert Pairings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main-text">
+            <p>
+                <b>Contact Us</b>
+                <br>
+                Have something you'd like to let us know?
+                Whether you have a comment on a recipe or an idea to share, we would love to hear from
+                you!
+            </p>
+            <p>
+                Subscribe to our newsletter to stay updated on all our recipes!
+            </p>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="form-text">
+                <form action="">
+                    <div class="form-group">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter First & Last..."
+                            name="fullName">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Email..." name="email">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="subscribe"> Subscribe
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+                </row>
+            </div>
+        </div>
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+                <div class="row">
+                    <span class="bottom-text">&copy; Adam Soto, 2024 | Terms Of Service | Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

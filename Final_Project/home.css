@@ -1,0 +1,103 @@
+/* DEVELOPER Adam Soto, IS117-005, Fall 2024 */
+
+/* Nav Menu */
+.bg-dark {
+    background-color: #e71e26 !important;
+}
+body{
+    background-color: #e9dcb9;
+}
+
+/* Carousel */
+.carousel {
+    max-width: 600px;
+    margin: 15px auto;
+    float: left;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.carousel-control-prev {
+    left: 5px;
+}
+.carousel-control-next {
+    right: 5px;
+}
+
+/* Text Areas */
+.main-text{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 45%;
+    font-size: 270%;
+    text-align: center;
+}
+.must-try{
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    background-color: #e71e26;
+}
+
+/* Trending Bar and Images */
+.trending-bar{
+    background-color: #e71e26;
+    color: white;
+    margin-top: 40px;
+    font-size: 180%;
+    text-align: center;
+    border-radius: 10px;
+}
+.trend1-img{
+    float: left;
+    margin-left: 5%;
+    width: 25%;
+}
+.trend1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 210%;
+    text-align: center;
+}
+.trend2-img{
+    float: right;
+    margin-right: 5%;
+    width: 25%;
+}
+.trend2{
+    margin-top: 12%;
+    margin-bottom: 6%;
+    font-size: 210%;
+    text-align: center;
+}
+.trend3-img{
+    float: left;
+    margin-left: 5%;
+    width: 25%;
+}
+.trend3{
+    margin-top: 12%;
+    margin-bottom: 6%;
+    font-size: 210%;
+    text-align: center;
+}
+
+/* Footer */
+.footer{
+    background-color: #e71e26;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+}

@@ -5,12 +5,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Polish Cookbook - Winter</title>
+    <title>The Polish Cookbook - Dessert Pairings</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="seasons.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/Favicon.jpg">
+    <link href="../styles/origins&pairings.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/Favicon.jpg">
 
 </head>
 
@@ -23,7 +23,9 @@
                     col-12">
 
                 <!-- Brand -->
-                <img src="images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                <a href="home.html">
+                    <img src="../images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                </a> 
                 <a class="navbar-brand" href="home.html">The Polish Cookbook</a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,6 +47,7 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="equipment.html">Equipment Needed</a>
+                                <a class="dropdown-item" href="recipes.html">General Recipes</a>
                                 <a class="dropdown-item" x-placement="right-start" href="seasonal.html">Seasonal Recipes</a>
                                 <ul>
                                     <li>
@@ -74,8 +77,37 @@
             </nav>
         </div>
 
-        <p class="WIP">
-            <b>WIP (Work in Progress! We are still updating our pages with all the recipes in our cookbook!)</b>
+        <p class="main-text">
+            Polish cuisine features a lot of distinct desserts!<br>
+            In Poland, when you have a dessert you typically have something to go with it!<br>
+            Whether it is as simple as herbata (tea / chai) or kawa (coffee),<br>
+            or fancier like lody (ice cream), shredded chocolate, fresh fruit, or powdered sugar,<br>
+            <b>every dessert needs a friend!</b><br>
+            <br>Below you will find a list of perfect-pastry-partnerships!
+        </p>
+        <br>
+        <p>
+            <ul class="list">
+                <li>Dessert 1: Szarlotka (Apple Pie)</li>
+                <ol>
+                    <li>Herbata</li>
+                    <li>Kawa</li>
+                    <li>Gorąca Czekolada (Hot Chocolate)</li>
+                </ol>
+                <li>Dessert 2: Karpatka (Napoleon Cake)</li>
+                <ol>
+                    <li>Kawa</li>
+                    <li>Herbata</li>
+                    <li>Fresh Berries</li>
+                </ol>
+                <li>Dessert 3: Gofry (Belgian Waffles)</li>
+                <ol>
+                    <li>Lody</li>
+                    <li>Fresh Berries</li>
+                    <li>Chocolate Sauce</li>
+                </ol>
+                <li><b>WIP (Work in Progress! We are still updating our pages with all the recipes in our cookbook!)</b></li>
+            </ul>
         </p>
 
         <footer class="footer page-footer font-small">
@@ -85,6 +117,11 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

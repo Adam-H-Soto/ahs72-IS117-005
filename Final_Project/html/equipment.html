@@ -5,12 +5,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Polish Cookbook - Home</title>
+    <title>The Polish Cookbook - Equipment Needed</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="home.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/Favicon.jpg">
+    <link href="../styles/equipment.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/Favicon.jpg">
 
 </head>
 
@@ -23,7 +23,9 @@
                     col-12">
 
                 <!-- Brand -->
-                <img src="images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                <a href="home.html">
+                    <img src="../images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                </a>                 
                 <a class="navbar-brand" href="home.html">The Polish Cookbook</a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,6 +47,7 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="equipment.html">Equipment Needed</a>
+                                <a class="dropdown-item" href="recipes.html">General Recipes</a>
                                 <a class="dropdown-item" x-placement="right-start" href="seasonal.html">Seasonal Recipes</a>
                                 <ul>
                                     <li>
@@ -74,80 +77,25 @@
             </nav>
         </div>
 
-
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-            </div>
-
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/DinnerTable.jpg" alt="Polish Dinner Table" class="d-block">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/Pierogi.jpg" alt="Pierogi" class="d-block">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/Golabki.webp" alt="Golabki" class="d-block">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/Nalesniki.jpg" alt="Nalesniki" class="d-block">
-                </div>
-            </div>
-
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-
-        <!-- Javascript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-            </script>
-
-        <div class="main-text">
-            <p>
-                Welcome to <i>The Polish Cookbook!</i>
-                Here you can find simple traditional Polish recipes that will warm your heart and soul!
-                We hope you find what you are looking for as you peruse through all our recipes!
-            </p>
-        </div>
-
-        <div class="trending-bar">
-            <p>
-                Top 3 Recipes Trending Today!
-            </p>
-        </div>
-
-        <img class="trend1-img" src="images/Pierogi.jpg">
-        <div class="trend1">
-            <p>
-                Pierogi Ruskie: The classic Potato and Cheese Pierogi!
-            </p>
-        </div>
-
-        <img class="trend2-img" src="images/Golabki.webp">
-        <div class="trend2">
-            <p>
-                Gołąbki: Stuffed cabbed with Pork, Beef and Rice!
-            </p>
-        </div>
-
-        <img class="trend3-img" src="images/Nalesniki.jpg">
-        <div class="trend3">
-            <p>
-                Naleśniki: Polish pancakes!
-            </p>
+        <!-- Main Text --> 
+        <div class="main-text"> 
+            <p class="note"><b><u>Important Note:</u></b></p> 
+            <div class="content"> 
+                <div class="text"> 
+                    <p> As with any style of cooking, there are certain pieces of equipment that are needed to complete each recipe. 
+                        Polish cooking, although mostly made by hand, also requires a few supplies atypical to other cuisines. 
+                        The list to the right describes what supplies one may need before attempting certain recipes. 
+                    </p> 
+                </div> 
+                <div class="list"> 
+                    <ul> 
+                        <li>Polish Egg Beater / Whisk</li> 
+                        <li>Enamelware</li> <li>Ricer</li> 
+                        <li>Handheld Flour Sifter</li> 
+                        <li>Stolnica (Cutting Board in shape of Trapezoid)</li> 
+                        <li>Kula do Ucierania (Stick with Ball on the end used for mixing) + Makutra Miska (Deep Stone Bowl with Ridges used for mixing)</li> 
+                    </ul> 
+                </div> 
         </div>
 
         <footer class="footer page-footer font-small">
@@ -157,6 +105,11 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

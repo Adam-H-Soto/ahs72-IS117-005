@@ -5,12 +5,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Polish Cookbook - Seasonal Recipes</title>
+    <title>The Polish Cookbook - Spring</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="seasonal.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/Favicon.jpg">
+    <link href="../styles/seasons.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/Favicon.jpg">
 
 </head>
 
@@ -23,7 +23,9 @@
                     col-12">
 
                 <!-- Brand -->
-                <img src="images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                <a href="home.html">
+                    <img src="../images/Favicon.jpg" width="75em" height="50em" alt="Polish Eagle">
+                </a> 
                 <a class="navbar-brand" href="home.html">The Polish Cookbook</a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,6 +47,7 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="equipment.html">Equipment Needed</a>
+                                <a class="dropdown-item" href="recipes.html">General Recipes</a>
                                 <a class="dropdown-item" x-placement="right-start" href="seasonal.html">Seasonal Recipes</a>
                                 <ul>
                                     <li>
@@ -74,56 +77,9 @@
             </nav>
         </div>
 
-
-        <!-- Cards -->
-        <div class="container mt-3">
-            <div class="row">
-                <!-- Spring Card -->
-                <div class="col-md-6 mb-3">
-                    <div class="card img-fluid" style="width:100%">
-                        <img class="card-img-top" src="images/Spring.jfif" alt="Picture of Spring in Poland"
-                            style="width:100%">
-                        <div class="card-img-overlay">
-                            <a href="spring.html" class="btn btn-primary centered-button"><b><i>Spring</i></b></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Summer Card -->
-                <div class="col-md-6 mb-3">
-                    <div class="card img-fluid" style="width:100%">
-                        <img class="card-img-top" src="images/Summer.webp" alt="Picture of Summer in Poland"
-                            style="width:100%">
-                        <div class="card-img-overlay">
-                            <a href="summer.html" class="btn btn-primary centered-button"><b><i>Summer</i></b></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Autumn Card -->
-                <div class="col-md-6 mb-3">
-                    <div class="card img-fluid" style="width:100%">
-                        <img class="card-img-top" src="images/Autumn.jpg" alt="Picture of Autumn in Poland"
-                            style="width:100%">
-                        <div class="card-img-overlay">
-                            <a href="autumn.html" class="btn btn-primary centered-button"><b><i>Autumn</i></b></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Winter Card -->
-                <div class="col-md-6 mb-3">
-                    <div class="card img-fluid" style="width:100%">
-                        <img class="card-img-top" src="images/Winter.webp" alt="Picture of Winter in Poland"
-                            style="width:100%">
-                        <div class="card-img-overlay">
-                            <a href="winter.html" class="btn btn-primary centered-button"><b><i>Winter</i></b></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+        <p class="WIP">
+            <b>WIP (Work in Progress! We are still updating our pages with all the recipes in our cookbook!)</b>
+        </p>
 
         <footer class="footer page-footer font-small">
             <div class="container">
@@ -132,6 +88,11 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Javascript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
